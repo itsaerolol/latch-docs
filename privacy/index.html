@@ -27,7 +27,7 @@
 
   <section class="doc-header">
     <h1>Privacy Policy</h1>
-    <p class="note">Effective date: July 14, 2026</p>
+    <p class="note">Effective date: July 15, 2026</p>
   </section>
 
   <p>Latch is a Screen Time app that helps you shield chosen apps behind a short, deliberate friction gate. This policy explains what the app does — and, mostly, does not do — with your information.</p>
@@ -35,19 +35,19 @@
   <div class="card">
 
     <h2>The short version</h2>
-    <p>Latch has no user accounts, collects no analytics, and runs no servers. Everything the app knows about you — your sessions, stats, streaks, app-group selections, and settings — is stored only on your device, inside a private container shared between the app and its widgets. Nothing you do in Latch is transmitted anywhere, by us or by any third party, because there is nowhere for it to go.</p>
+    <p>Latch has no user accounts, collects no analytics, and runs no servers. Everything the app knows about you — your sessions, stats, streaks, app-group selections, and settings — is stored only on your device, inside a private container shared between the app and its widgets. Nothing you do in Latch — starting a latch, your stats, your settings — is transmitted to us or to any third party. The only network activity is Apple's own handling of purchases, which never passes through us.</p>
 
     <h2>No accounts</h2>
     <p>There is no sign-up, no sign-in, and no personal profile. You never give Latch a name, an email address, or any other identifying information beyond an optional display name you can type into Settings, which is used only to personalize the app's own greeting text and is never sent off your device.</p>
 
     <h2>No analytics, no telemetry, no third-party SDKs</h2>
-    <p>Latch does not use any analytics, crash-reporting, or advertising SDKs. We do not know how often you open the app, which features you use, or anything else about your behavior. There is no code path in the app that could report this even if we wanted it to.</p>
+    <p>Latch does not use any analytics, crash-reporting, or advertising SDKs. We do not know how often you open the app, which features you use, or anything else about your behavior. We do not collect this information or transmit it anywhere.</p>
 
     <h2>No servers</h2>
-    <p>Latch has no backend. All data — latch session history, streaks, weekly-goal progress, app-group definitions, and your settings — is written to an on-device App Group container (a private storage area shared only between the Latch app and its own widget and system extensions) using Apple's standard <code>UserDefaults</code> storage. No data ever leaves your device over the network.</p>
+    <p>Latch has no backend. All data — latch session history, streaks, weekly-goal progress, app-group definitions, and your settings — is written to an on-device App Group container (a private storage area shared only between the Latch app and its own widget and system extensions) using Apple's standard <code>UserDefaults</code> storage. No session, stats, streak, app-group, or settings data ever leaves your device over the network. The one exception is purchases, which are processed entirely by Apple — see "Subscriptions and purchases" below.</p>
 
     <h2>Family Controls / Screen Time</h2>
-    <p>Latch uses Apple's Family Controls and Screen Time frameworks to let you choose which apps and categories get shielded during a latch, and to enforce that shield. When you pick apps using Apple's system picker, Latch receives only an opaque, encrypted token representing your selection — the app itself never sees, stores, or can reconstruct a list of which apps you picked, their names, or your usage of them. This is enforced by Apple's operating system, not by a promise we're making on top of it.</p>
+    <p>Latch uses Apple's Family Controls and Screen Time frameworks to let you choose which apps and categories get shielded during a latch, and to enforce that shield. When you pick apps using Apple's system picker, Latch receives only an opaque token representing your selection. It stores that token on your device so your selection persists between sessions, but it cannot decode the token into a list of which apps you picked, their names, or your usage of them — that remains reserved to iOS and is never available to Latch. This is enforced by Apple's operating system, not by a promise we're making on top of it.</p>
 
     <h2>Notifications</h2>
     <p>Latch schedules local, on-device notifications only — for example, to tell you when a latch session has completed. These are not push notifications and do not involve any notification server operated by us or anyone else.</p>
@@ -60,6 +60,9 @@
 
     <h2>Children's privacy</h2>
     <p>Because Latch collects no personal data from anyone, of any age, there is nothing age-specific to disclose beyond what's already described above. Latch is not directed at children and does not knowingly collect information from them — mechanically, it can't, since it doesn't collect information from anyone.</p>
+
+    <h2>Your rights under GDPR, UK GDPR, CCPA, and similar laws</h2>
+    <p>Latch collects no personal data, runs no servers, and does not sell or share any data. Because there is no data held about you anywhere outside your own device, there is nothing for us to access, export, correct, or delete in response to a rights request — deleting the app removes everything, as described above. For the limited on-device processing Latch performs, Latch's developer (Keaton White) is the data controller. If you are in the EU, UK, California, or a comparable jurisdiction and have questions, contact us at the address below.</p>
 
     <h2>Changes to this policy</h2>
     <p>If this policy changes, we'll update the effective date above and, for any change that meaningfully affects how the app handles your data, call it out in the app's release notes.</p>
