@@ -171,14 +171,16 @@ a:hover {
 }
 
 .link-card .title {
+  display: block;
   font-weight: 600;
   font-size: 1.02em;
 }
 
 .link-card .desc {
+  display: block;
   color: var(--text-tertiary);
   font-size: 0.88em;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .link-card .chev {
